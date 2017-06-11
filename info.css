@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+.plugin-info-container	{
+	position: absolute;
+}
+
+.plugin-info-info	{
+	border-radius: 5px;
+    font-size: 10pt;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0;
+    margin-bottom: 10px;
+}
+
+.plugin-info-container div:last-child {
+	margin-bottom: 0px;
+}

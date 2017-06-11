@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Info plugin</title>
+		<link rel="stylesheet" type="text/css" href="info.css" />
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+		<script type="text/javascript" src="info.js"></script>
+		<script>
+			var info;
+			
+			$(function() {
+				info = $.info();
+				
+				setInterval(function() {
+					info.push({
+						color	: "lightgreen",
+						content	: "Jakaś tam informacja"
+					});
+				}, 2000);
+			});
+			
+			function push() {
+				info.push({
+					color	: "lightblue"
+				});
+			}
+		</script>
+	</head>
+	<body>
+		<button onClick="push(); ">Push</button>
+	</body>
+</html>

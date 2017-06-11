@@ -1,0 +1,17 @@
+{
+  "name": "info",
+  "main": "info.js",
+  "authors": [
+    "Dariusz Szymczyk <edarek@op.pl>"
+  ],
+  "description": "info jquery plugin",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
